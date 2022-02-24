@@ -9,7 +9,7 @@ function App() {
 
   const handleSubmit = async (e) => {
        e.preventDefault();
-       if(word.length == 0){
+       if(word.length === 0){
          alert("Please enter the word")
        }
       //  console.log(word);
